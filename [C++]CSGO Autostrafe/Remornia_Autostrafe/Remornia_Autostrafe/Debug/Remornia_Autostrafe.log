@@ -1,7 +1,0 @@
-﻿  Hack.cpp
-F:\Repo\Remornia_Autostrafe\Remornia_Autostrafe\Remornia_Autostrafe\Hack.cpp(8,9): warning C4129: : неизвестная escape-последовательность
-F:\Repo\Remornia_Autostrafe\Remornia_Autostrafe\Remornia_Autostrafe\Hack.cpp(10,9): warning C4129: _: неизвестная escape-последовательность
-F:\Repo\Remornia_Autostrafe\Remornia_Autostrafe\Remornia_Autostrafe\Hack.cpp(41,11): warning C4244: аргумент: преобразование "double" в "DWORD", возможна потеря данных
-F:\Repo\Remornia_Autostrafe\Remornia_Autostrafe\Remornia_Autostrafe\Hack.cpp(46,11): warning C4244: аргумент: преобразование "double" в "DWORD", возможна потеря данных
-F:\Repo\Remornia_Autostrafe\Remornia_Autostrafe\Remornia_Autostrafe\Hack.cpp(66,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
-  Remornia_Autostrafe.vcxproj -> F:\Repo\Remornia_Autostrafe\Remornia_Autostrafe\Debug\Remornia_Autostrafe.exe
