@@ -1,1 +1,23 @@
-﻿  CS1.6 Hack.vcxproj -> F:\source\CS1.6 Hack\x64\Debug\CS1.6 Hack.exe
+﻿  Hack.cpp
+F:\source\[C++]CS1.6 External Hack\CS1.6 Hack\Features.h(10,42): warning C4244: аргумент: преобразование "uintptr_t" в "DWORD", возможна потеря данных
+F:\source\[C++]CS1.6 External Hack\CS1.6 Hack\Features.h(11,42): warning C4244: аргумент: преобразование "uintptr_t" в "DWORD", возможна потеря данных
+F:\source\[C++]CS1.6 External Hack\CS1.6 Hack\Features.h(23,49): warning C4244: аргумент: преобразование "uintptr_t" в "DWORD", возможна потеря данных
+F:\source\[C++]CS1.6 External Hack\CS1.6 Hack\Features.h(25,49): warning C4244: аргумент: преобразование "uintptr_t" в "DWORD", возможна потеря данных
+F:\source\[C++]CS1.6 External Hack\CS1.6 Hack\Features.h(33,49): warning C4244: аргумент: преобразование "uintptr_t" в "DWORD", возможна потеря данных
+F:\source\[C++]CS1.6 External Hack\CS1.6 Hack\Features.h(35,49): warning C4244: аргумент: преобразование "uintptr_t" в "DWORD", возможна потеря данных
+F:\source\[C++]CS1.6 External Hack\CS1.6 Hack\Hack.cpp(4,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+F:\source\[C++]CS1.6 External Hack\CS1.6 Hack\Hack.cpp(13,63): warning C4244: аргумент: преобразование "uintptr_t" в "DWORD", возможна потеря данных
+F:\source\[C++]CS1.6 External Hack\CS1.6 Hack\Hack.cpp(16,62): warning C4244: аргумент: преобразование "uintptr_t" в "DWORD", возможна потеря данных
+F:\source\[C++]CS1.6 External Hack\CS1.6 Hack\MemMan.h(20,1): warning C4312: приведение типов: преобразование из "DWORD" в "LPBYTE *" большего размера
+F:\source\[C++]CS1.6 External Hack\CS1.6 Hack\Features.h(23): message : выполняется компиляция ссылки на экземпляр шаблон функции "val MemMan::writeMemory<int>(DWORD,val)"
+          with
+          [
+              val=int
+          ]
+F:\source\[C++]CS1.6 External Hack\CS1.6 Hack\MemMan.h(14,1): warning C4312: приведение типов: преобразование из "DWORD" в "LPBYTE *" большего размера
+F:\source\[C++]CS1.6 External Hack\CS1.6 Hack\Hack.cpp(13): message : выполняется компиляция ссылки на экземпляр шаблон функции "val MemMan::readMemory<DWORD>(DWORD)"
+          with
+          [
+              val=DWORD
+          ]
+  CS1.6 Hack.vcxproj -> F:\source\[C++]CS1.6 External Hack\x64\Debug\CS1.6 Hack.exe

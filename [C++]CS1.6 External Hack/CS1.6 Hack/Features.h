@@ -11,18 +11,18 @@ void FindProcess()
     pv.engineModule = memory.getModule(pv.process, "hw.dll");
     if (pv.clientModule != NULL && pv.engineModule != NULL)
     {
-        std::cout << "Process found!" << std::endl << "hl.exe -> " << pv.process << std::endl;
+        std::cout << "Process found!" << std::endl << "hl.exe -> " << "0x" << std::hex << pv.process << std::endl;
     }
 }
 
-///BHOP
+//BHOP
 void BunnyHop()
 {
     if (MISC::bunnyhop)
     {
-        memory.writeMem<int>(pv.clientModule + Offsets::dwForceJump, 5);
+        memory.writeMemory<int>(pv.clientModule + Offsets::dwForceJump, 5);
         Sleep(1);
-        memory.writeMem<int>(pv.clientModule + Offsets::dwForceJump, 4);
+        memory.writeMemory<int>(pv.clientModule + Offsets::dwForceJump, 4);
     }
 }
 //DDrun
@@ -30,13 +30,17 @@ void DDRun()
 {
     if (MISC::DDrun)
     {
-        memory.writeMem<int>(pv.clientModule + Offsets::dwForceDuck, 5);
+        memory.writeMemory<int>(pv.clientModule + Offsets::dwForceDuck, 5);
         Sleep(1);
-        memory.writeMem<int>(pv.clientModule + Offsets::dwForceDuck, 4);
+        memory.writeMemory<int>(pv.clientModule + Offsets::dwForceDuck, 4);
     }
 }
-//Close program
-void QuitCheat()
+
+//Hang
+void Glide(DWORD zCordAddr)
 {
-    return;
+    if (MISC::Hang)
+    {
+        memory.writeMemory<DWORD>(zCordAddr, zCordAddr);
+    }
 }

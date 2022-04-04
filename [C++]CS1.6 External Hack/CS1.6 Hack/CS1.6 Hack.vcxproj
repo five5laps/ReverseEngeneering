@@ -120,6 +120,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -147,9 +148,9 @@
     <ClInclude Include="include.h" />
     <ClInclude Include="MemMan.h" />
     <ClInclude Include="offsets.h" />
-    <ClInclude Include="procValues.h" />
+    <ClInclude Include="processValues.h" />
     <ClInclude Include="resource.h" />
-    <ClInclude Include="Settings.h" />
+    <ClInclude Include="config.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="CS1.6 Hack.rc" />
@@ -157,6 +158,7 @@
   <ItemGroup>
     <Image Include="..\counterstrikesource_11726.ico" />
     <Image Include="..\Debug\1605976590.png" />
+    <Image Include="counterstrikesource_11726.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

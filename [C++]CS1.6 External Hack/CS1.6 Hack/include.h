@@ -3,9 +3,8 @@
 //Библиотеки
 #include <iostream>
 #include "MemMan.h"
-#include "procValues.h"
+#include "processValues.h"
 #include "offsets.h"
-#include "Settings.h"
+#include "config.h"
 #include "Features.h"
-
-//Неймспейсы
+#include <sstream>

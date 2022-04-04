@@ -21,13 +21,13 @@
     <ClInclude Include="MemMan.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="procValues.h">
+    <ClInclude Include="processValues.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="offsets.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Settings.h">
+    <ClInclude Include="config.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Features.h">
@@ -55,6 +55,9 @@
       <Filter>Файлы ресурсов</Filter>
     </Image>
     <Image Include="..\counterstrikesource_11726.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="counterstrikesource_11726.ico">
       <Filter>Файлы ресурсов</Filter>
     </Image>
   </ItemGroup>

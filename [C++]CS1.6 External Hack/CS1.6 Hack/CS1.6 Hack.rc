@@ -47,19 +47,12 @@ END
 
 /////////////////////////////////////////////////////////////////////////////
 //
-// PNG
-//
-
-
-
-/////////////////////////////////////////////////////////////////////////////
-//
 // Icon
 //
 
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
-IDI_ICON1               ICON                    "F:\\source\\CS1.6 Hack\\counterstrikesource_11726.ico"
+IDI_ICON2               ICON                    "counterstrikesource_11726.ico"
 
 #endif    // Русский (Россия) resources
 /////////////////////////////////////////////////////////////////////////////

@@ -8,14 +8,14 @@ public:
 	MemMan();
 	~MemMan();
 	template <class val>
-	val readMem(DWORD addr)
+	val readMemory(DWORD addr)
 	{
 		val x;
 		ReadProcessMemory(handle, (LPBYTE*)addr, &x, sizeof(x), NULL);
 		return x;
 	}
 	template <class val>
-	val writeMem(DWORD addr, val x)
+	val writeMemory(DWORD addr, val x)
 	{
 		WriteProcessMemory(handle, (LPBYTE*)addr, &x, sizeof(x), NULL);
 		return 0;
