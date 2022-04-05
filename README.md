@@ -3,7 +3,7 @@ InGameSoftware
 
 
 Because HL 1 hacking, modding,... is getting old and not so popular as CS Source and/or CS GO hacking is, and you cannot just google offsets
-i decided to learn about reverse engineering on cs 1.6
+i decided to learn about reverse engineering also on cs 1.6 from complete zero
 
 ----------------------------------------
 
